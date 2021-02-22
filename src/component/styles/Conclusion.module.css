@@ -1,0 +1,45 @@
+.parrafo{
+    text-decoration: none;
+    color: #131110;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Poppins';
+    margin-left: 6vw;
+    margin-right: 8vw;
+}
+
+.titulos{
+    text-decoration: none;
+    color: #131110;
+    font-size: 24px;
+    text-align: left;
+    font-family: 'Poppins';
+    margin-left: 6vw;
+    margin-right: 8vw;
+    
+}
+.titulos2{
+    text-decoration: none;
+    color: #EE741C;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poppins';
+    margin-top: 6vh;
+}
+.titulos3{
+    text-decoration: none;
+    color: #EE741C;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Poppins';
+    margin-left: 6vw;
+}
+.titulos4{
+    text-decoration: none;
+    color: #131110;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Poppins';
+    margin-left: 6vw;
+    
+}

@@ -1,0 +1,46 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-top:1.5vh;
+    font-family:'Poppins';
+}
+
+.nav{
+    width: 200vw;
+    height: 75px;
+    left: 0;
+    background-color: rgb(247, 244, 244);
+    display: grid;
+    grid-template-columns: 0.8fr 2.7fr 2.7fr 0.5fr 1fr;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;    
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;          
+    text-decoration: none;
+    margin-left: 1.5vw;
+
+}
+
+.comunicar {
+    width: 300px;
+}
+
+.texto{
+    text-decoration: none;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: #EE741C;
+    font-size: 20px;
+}
+.texto:hover{
+    background-color:#ffe6d4;
+    transition: 1s;
+}
