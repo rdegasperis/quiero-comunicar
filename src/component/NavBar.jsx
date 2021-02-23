@@ -14,10 +14,10 @@ function NavBar(){
                     
                 </div>  
             <div className={s.menu}>                    
-                <NavLink className={s.texto} to='/'> Inicio </NavLink>                    
-                <NavLink className={s.texto} to="/Plan/">Plan</NavLink>                      
-                <NavLink className={s.texto} to="/Contacto/">Contacto</NavLink>
-                <NavLink className={s.texto} to="/SobreMi/">Sobre Mi</NavLink>
+                <NavLink className={s.texto} to='/quiero-comunicar/'> Inicio </NavLink>                    
+                <NavLink className={s.texto} to="/quiero-comunicar/Plan/">Plan</NavLink>                      
+                <NavLink className={s.texto} to="/quiero-comunicar/Contacto/">Contacto</NavLink>
+                <NavLink className={s.texto} to="/quiero-comunicar/SobreMi/">Sobre Mi</NavLink>
                 </div>             
             </nav>
         </div>

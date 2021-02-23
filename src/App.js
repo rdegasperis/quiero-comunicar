@@ -15,10 +15,10 @@ function App() {
       <NavBar/>
       <Header/>
     <Switch>
-      <Route exact path="/https://rdegasperis.github.io/QuieroComunicar/"><HomePage/></Route>
-      <Route path="/Plan" exact><Plan/></Route>
-      <Route path="/SobreMi" exact><SobreMi/></Route>
-      <Route path="/Contacto" exact><Contacto/></Route>      
+      <Route exact path="/quiero-comunicar/"><HomePage/></Route>
+      <Route path="/quiero-comunicar/Plan" exact><Plan/></Route>
+      <Route path="/quiero-comunicar/SobreMi" exact><SobreMi/></Route>
+      <Route path="/quiero-comunicar/Contacto" exact><Contacto/></Route>      
     </Switch>
     </>
   )
