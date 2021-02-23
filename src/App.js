@@ -16,7 +16,7 @@ function App() {
       <Header/>
     <Switch>
       <Route exact path="/quiero-comunicar/"><HomePage/></Route>
-      <Route path="/quiero-comunicar/Plan" exact><Plan/></Route>
+      <Route path="/quiero-comunicar/Plan/" exact><Plan/></Route>
       <Route path="/quiero-comunicar/SobreMi" exact><SobreMi/></Route>
       <Route path="/quiero-comunicar/Contacto" exact><Contacto/></Route>      
     </Switch>
