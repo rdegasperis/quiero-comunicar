@@ -16,7 +16,12 @@ function SobreMi(){
          <p className={s.texto3}>Nací en Posadas, Misiones y a los 17 años con el apoyo de mi familia me fui a La Plata a estudiar.
          Me recibí, trabajo y sigo formándome continuamente.
          Hoy puedo decir que soy Licenciada y Profesora en Comunicación Social, Locutora Nacional y casi Magister en Comunicación Digital Interactiva (si todo va bien, eliminamos el casi).</p>
-        <button className={s.boton}>Accedé a mi CV</button>
+        <button className={s.boton}
+            type="button"
+            onClick={(e) => {
+            e.preventDefault();
+            window.location.href='https://drive.google.com/file/d/1CzcX0IFUfzcDcK16TJfPrcMQLDuG4qtW/view?usp=sharing';
+          }}>Accedé a mi CV</button>
         </div>
         </div>
     )

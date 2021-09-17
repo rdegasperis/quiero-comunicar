@@ -19,6 +19,7 @@ function NavBar(){
                 <NavLink className={s.texto} to="/quiero-comunicar/Contacto/">Contacto</NavLink>
                 <NavLink className={s.texto} to="/quiero-comunicar/SobreMi/">Sobre Mi</NavLink>
                 </div>             
+                <div> <h1 className={s.barText}> Versión Beta </h1></div>
             </nav>
         </div>
     )

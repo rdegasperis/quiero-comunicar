@@ -4,7 +4,7 @@
     flex-direction: row;
     align-items: center;
     margin-top:1.5vh;
-    font-family:'Poppins';
+    font-family:'Roboto';
 }
 
 .nav{
@@ -43,4 +43,38 @@
 .texto:hover{
     background-color:#ffe6d4;
     transition: 1s;
+}
+.barText{
+    font-size:12px;
+    margin-left: 5px;    
+    flex-direction: row;
+    align-items: center;
+    margin-top:2.4vh;
+    margin-right:1vw;
+    color: #EE741C;
+
+}
+
+@media (max-width: 820px){
+    .nav{
+        width: 300vw;
+        height: 85px;
+        display: table-column;
+    }
+    .menu{
+        display: table-cell;
+        padding: 10px;
+        justify-items: center;        
+        
+    }
+    .texto{
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-size: 18px;
+    }
+    .comunicar {
+        width: 350px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
 }

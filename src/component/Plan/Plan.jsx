@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import s from '../styles/Plan.module.css';
-import c from "./cuestionario";
+import c from "./Cuestionario";
 import Conclusion from './Conclusion'
 
 function Plan (){
@@ -21,7 +21,7 @@ function Plan (){
 return <div>
         {orden === "primero" && <>
     <p className ={s.text}>¿Qué sos?</p>
-        <div>{c.primero.map(inst =>
+        <div className = {s.cont}>{c.primero.map(inst =>
             <>
             <button className ={s.boton} onClick = {() => seleccion(inst)}>{inst}</button>
             </>
@@ -33,7 +33,7 @@ return <div>
     <p className ={s.text}>Si estás acá, queres estar en la nube. Pero, ¿Cuál es tu objetivo? </p>
         <p className ={s.text2}>Elegí la opción que creas más conveniente</p>
         {(select) &&
-        <div>{c.segundo[select].map(obj =>
+        <div className={s.cont}>{c.segundo[select].map(obj =>
             <>
             <button className ={s.boton} onClick = {() => orderSetter("tercero")}>{obj}</button>
             </>
@@ -44,7 +44,7 @@ return <div>
         {orden === "tercero" && <>
     <p className ={s.text} >¿A quién le vas a hablar?</p>
         {(select)&&
-        <div>{c.tercero[select].map(hablar =>
+        <div className={s.cont}>{c.tercero[select].map(hablar =>
             <>
             <button className ={s.boton} onClick = {() => orderSetter("cuarto")}>{hablar}</button>
             </>
@@ -54,54 +54,54 @@ return <div>
         {orden === "cuarto" && <>
     <p className ={s.text}>¿Contás con un equipo a quién delegar actividades?</p>
         {(select)&&
-        <div>{c.cuarto[select].map(delegar =>
+        <div className={s.cont}>{c.cuarto[select].map(delegar =>
             <>
             <button className ={s.boton} onClick = {() => orderSetter("quinto")}>{delegar}</button>
             </>
             )}</div>
         }</>}
 
-        {orden === "quinto" && select === "inst" && <>
+        {orden === "quinto" && <>
     <p className ={s.text}>¿Te manejas con fluidez en la nube?</p>
         {(select)&&
-        <div>{c.quinto[select].map(nube =>
+        <div className={s.cont}>{c.quinto[select].map(nube =>
             <>
             <button className ={s.boton} onClick = {() => orderSetter("sexto")}>{nube}</button>
             </>
             )}</div>
         }</>}
 
-        {orden === "sexto" && select === "inst" && <>
+        {orden === "sexto" && <>
     <p className ={s.text}>¿Tenés miedo al impacto de internet? Ya sea positivo o negativo</p>
         {(select)&&
-        <div>{c.sexto[select].map(impacto =>
+        <div className={s.cont}>{c.sexto[select].map(impacto =>
             <>
             <button className ={s.boton} onClick = {() => orderSetter("septimo")}>{impacto}</button>
             </>
             )}</div>
         }</>}
 
-        {orden === "septimo" && select === "inst" && <>
+        {orden === "septimo" && <>
     <p className ={s.text}>Estar en Internet y ser "digital" ¿Qué siginifica para vos?</p>
         {(select)&&
-        <div>{c.septimo[select].map(digital =>
+        <div className={s.cont}>{c.septimo[select].map(digital =>
             <>
-            <button className ={s.boton2} onClick = {() => orderSetter("octavo")}>{digital}</button>
+            <button className ={s.boton} onClick = {() => orderSetter("octavo")}>{digital}</button>
             </>
             )}</div>
         } </>}
 
-        {orden === "octavo" && select === "inst" && <>
+        {orden === "octavo" && <>
     <p className ={s.text}>¿Estás dispuesto a invertir en un plan estratégico de comunicación?</p>
         {(select)&&
-        <div>{c.octavo[select].map(invertir =>
+        <div className={s.cont}>{c.octavo[select].map(invertir =>
             <>
-            <button className ={s.boton3} onClick = {() => orderSetter("noveno")}>{invertir}</button>
+            <button className ={s.boton} onClick = {() => orderSetter("noveno")}>{invertir}</button>
             </>
             )}</div>
         }</>}
 
-        {orden === "noveno" && select === "inst" && <Conclusion/>}
+        {orden === "noveno" && <Conclusion/>}
 </div>
 };
 

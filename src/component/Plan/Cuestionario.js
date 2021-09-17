@@ -17,23 +17,23 @@ const cuestionario = {
     }, 
     quinto:{
         inst: ["Sí", "No", "Tengo mis limitaciones"], 
-        com: [], 
-        prof: []
+        com: ["Sí", "Más o menos", "¿Nube?"], 
+        prof: ["Sí, re", "Sí, pero solo las mias personales", "No"]
     }, 
     sexto:{
         inst: ["Sí", "No", "Nunca lo pensé"], 
-        com: [], 
-        prof: []
+        com: ["Sí", "Nunca me puse a analizar", "¿Qué es el miedo?"], 
+        prof: ["Sí", "No", "Tengo miedo a lo que pueda pasar en cuanto a posibles comentarios"]
     }, 
     septimo:{
         inst: ["Tener todas las Redes Sociales", "Tener una web", "Tenes una web, actualizarla de manera constante. Analizar contexto y estar en las redes que se necesiten para trabajar de manera sinérgica."], 
-        com: [], 
-        prof: []
+        com: ["Nada", "Crecer. Tener web, ecomerce, y redes", "Probar modalidad"], 
+        prof: ["Mostrarme", "Tener una web y redes sociales", "Una tarea más"]
     }, 
     octavo:{
         inst: ["Sí", "No"], 
-        com: [], 
-        prof: []
+        com: ["Sí", "No", "Me es indistito"], 
+        prof: ["Sí", "No", "Me es indistito"]
     }
 }
 

@@ -1,7 +1,13 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
 .text{
     color: #1d1d1d;
     font-size: 26px;
-    font-family: 'Poppins';
+    font-family: 'Roboto';
     text-align: center;
     align-content: center;
 }
@@ -11,21 +17,21 @@
     font-size: 18px;
     font-style: italic;
     text-align: center;
-    font-family: 'Poppins';
+    font-family: 'Roboto';
 }
 
 .boton {
-    width: 20vw;
-    height: 4vh;
-    margin-left: 10vw;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
     background-color: #EE741C;
-    font-family: 'Poppins';
-    font-weight: 300;
+    font-family: 'Roboto';
+    font-weight: 400;
     font-size: 16px;
     color: white;
     border-radius: 16px;
     border: solid 1px #EE741C;
-    display: inline-block;
     text-align: center;
 }
 .boton:hover{
@@ -35,30 +41,26 @@
 
 }
 
-.boton2 {
-    width: 20vw;
-    height: 12vh;
-    margin-left: 10vw;
-    background-color: #EE741C;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 16px;
-    color: white;
-    border-radius: 16px;
-    border: solid 1px #EE741C;
-    display: inline-block;   
-}
-.boton3{
-    width: 20vw;
-    height: 4vh;
-    margin-left: 20vw;
-    background-color: #EE741C;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 16px;
-    color: white;
-    border-radius: 16px;
-    border: solid 1px #EE741C;
-    display: inline-block;
-    text-align: center;
+
+
+@media (max-width: 820px){
+    .text{
+        font-size: 20px;
+    }
+    
+    .text2{
+        font-size: 16px;
+    }
+    
+    .boton {
+        width: 210px;
+        height: auto;
+        font-weight: 400;
+        font-size: 14px;
+        margin: 10px;
+        padding: 20px;
+    }
+   .cont {
+       flex-direction: column;
+   }
 }

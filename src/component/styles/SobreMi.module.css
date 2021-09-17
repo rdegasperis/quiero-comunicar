@@ -10,62 +10,64 @@
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    position: relative;
-    margin-left: 6vw;
-    margin-right: 4vw;
+    margin-left: 15px;
+    margin-right: 10px;
 }
 
 .foto{
-    position: relative;
     width: 350px;
-    margin-top: 2vh;
+    margin-top: 20px;
     
 }
 .texto1{
     color: #131110;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     text-align: center;
-    font-family: 'Poppins';
+    font-family: 'Roboto';
     font-style: italic;
 
 }
 .texto2{
     color: #131110;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     text-align: center;
-    font-family: 'Poppins';
+    font-family: 'Roboto';
 }
 .texto3{
     color: #131110;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     text-align: center;
-    font-family: 'Poppins';
+    font-family: 'Roboto';
     margin-right: 4%;
     margin-left: 4%;
 }
 
 .boton{
-    width: 12vw;
-    height: 4vh;
+    width: 120px;
+    height: auto;
     background-color: #EE741C;
-    font-family: 'Poppins';
+    font-family: 'Roboto';
     font-weight: 300;
-    font-size: 18px;
+    font-size: 14px;
     color: white;
     border-radius: 16px;
     border: solid 1px #EE741C;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 2%;
-    margin-bottom: 3%;
-
+    padding: 10px;
+    
 }
 .boton:hover{
     background-color:#ffe6d4;
     border: solid 1px #ffe6d4;
     transition: 1s;
+}
+
+@media (max-width: 820px){
+    .foto{
+        width: 160px;
+        position: relative;
+    }
+    
 }
