@@ -30,7 +30,7 @@ function NavBar() {
           </NavLink>
         </div>
         <div>
-          <h1 className={s.barText}> Versión Beta </h1>
+          <h1 className={s.barText}> Beta </h1>
         </div>
       </nav>
     </div>
