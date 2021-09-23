@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/quiero-comunicar/static/css/main.401f2d42.chunk.css",
+    "main.js": "/quiero-comunicar/static/js/main.da2e5f4c.chunk.js",
+    "main.js.map": "/quiero-comunicar/static/js/main.da2e5f4c.chunk.js.map",
+    "runtime-main.js": "/quiero-comunicar/static/js/runtime-main.ac0b5e0f.js",
+    "runtime-main.js.map": "/quiero-comunicar/static/js/runtime-main.ac0b5e0f.js.map",
+    "static/js/2.eb905691.chunk.js": "/quiero-comunicar/static/js/2.eb905691.chunk.js",
+    "static/js/2.eb905691.chunk.js.map": "/quiero-comunicar/static/js/2.eb905691.chunk.js.map",
+    "index.html": "/quiero-comunicar/index.html",
+    "static/css/main.401f2d42.chunk.css.map": "/quiero-comunicar/static/css/main.401f2d42.chunk.css.map",
+    "static/js/2.eb905691.chunk.js.LICENSE.txt": "/quiero-comunicar/static/js/2.eb905691.chunk.js.LICENSE.txt",
+    "static/media/comunicar.a91a5182.png": "/quiero-comunicar/static/media/comunicar.a91a5182.png",
+    "static/media/fotoNoe.82863fc9.png": "/quiero-comunicar/static/media/fotoNoe.82863fc9.png",
+    "static/media/Header.module.css": "/quiero-comunicar/static/media/portada.0ac62d11.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac0b5e0f.js",
+    "static/js/2.eb905691.chunk.js",
+    "static/css/main.401f2d42.chunk.css",
+    "static/js/main.da2e5f4c.chunk.js"
+  ]
+}
